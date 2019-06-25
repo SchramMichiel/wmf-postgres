@@ -13,4 +13,4 @@ ENV POSTGRES_PASSWORD secret
 
 COPY ./sql-scripts/ /docker-entrypoint.initdb.d/
 
-EXPOSE 3306
+EXPOSE 5432
